@@ -1,0 +1,288 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #393e46;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: auto;
+    margin: auto;
+    
+
+}
+
+.nav-bar {
+    background-color: #181818;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-title {
+    color: ghostwhite;    
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: 25px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;    
+    margin-right: 500px;
+}
+
+ul {
+    color: #181818;
+}
+
+a {
+    color: ghostwhite;
+    margin: 0px 20px 0px 0px;
+    font-weight: 200;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.profile {
+    font-weight: bold;
+}
+
+.btn {
+    margin-right: 40px;
+    background-color: #00fff5;
+    border: black;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.body {
+    display: flex;
+}
+
+.main1-container {
+    background-color: white;
+    border: 2px solid #181818;
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 40px;
+    flex: 2;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main1-top {
+    background-color: #00fff5;
+    height: 125px;
+    width: auto;
+}
+
+.user {
+    background-color: lightgray;
+    border-radius: 50%;
+    padding: 5px;
+    height: 125px;
+    width: 125px;
+    margin-top: 60px;
+    margin-left: 25px;
+}
+
+.username {
+    margin-top: 75px;
+    margin-left: 25px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+h2, h3 {
+    margin: 25px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.marker {
+    height: 25px;
+    margin-right: 10px;
+}
+
+p {
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.gear {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.main2-container {
+    background: linear-gradient(180deg, rgba(87,86,86,1) 28%, rgba(255,255,255,1) 28%);
+    border: 2px solid #181818;
+    width: 400px;
+    height: 250px;
+    display: flex;    
+    margin: 40px 40px 40px 40px;
+    flex: 1;
+}
+
+.connection-requests {
+    display: flex;
+
+}
+
+.num-connections {
+    background-color: lightgray;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.requests {
+    color: white;
+    margin-top: 17px;
+    margin-left: 60px;
+}
+
+.todd, .phil {
+    height: 55px;
+    width: 55px;
+    margin: 30px 20px 20px 20px;
+    display: flex;
+}
+
+.todd-pic, .phil-pic {
+    border-radius: 50%;
+}
+
+.close1 {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+
+.accept1 {
+    height: 40px;
+    width: 40px;
+    margin-left: 80px;
+}
+
+.close2 {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+
+.accept2 {
+    height: 40px;
+    width: 40px;
+    margin-left: 93px;
+}
+
+.todd-name, .phil-name {
+    
+}
+
+.footer {
+    display: flex;
+}
+
+.education {
+    width: 750px;
+    height: 300px;
+    background: linear-gradient(180deg, rgba(87,86,86,1) 24%, rgba(255,255,255,1) 24%);
+    border: 2px solid #181818;
+    margin: 40px 0px 40px 40px;
+    flex: 2;
+}
+
+.ed-title {
+    color: white;
+    font-size: 40px;
+    margin: 10px 40px;
+}
+
+.dojo {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.date {
+    color: grey;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.belts {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.connections {
+    background: linear-gradient(180deg, rgba(87,86,86,1) 19%, rgba(255,255,255,1) 19%);
+    margin: -190px 40px 40px 40px;
+    border: 2px solid #181818;
+    flex: 1;
+}
+
+.your-connections {
+    display: flex;
+}
+
+.num-total {
+    margin: 15px 20px 20px 20px;
+    background-color: lightgray;
+    border-radius: 50%;
+    height: 35px;
+    width: 90px;
+    text-align: center;
+    padding: 5px;
+}
+
+.your-cons {
+    color: white;
+    font-size: 25px;
+    margin: 20px 20px 0px 0px;
+}
+
+.adrien, .anne, .alayne, .arry {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.adrien-pic, .anne-pic, .alayne-pic, .arry-pic {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin: 5px 15px;
+}
+
+.adrien-name, .anne-name, .alayne-name, .arry-name {
+    margin-top: 15px;
+}
+
+.viewmore {
+    border-top: 2px solid #181818;
+    padding: 5px 0px;
+}
+
+.link {
+    color: darkblue;
+    font-size: 20px;
+    margin: 0px 0px 10px 20px;
+}
